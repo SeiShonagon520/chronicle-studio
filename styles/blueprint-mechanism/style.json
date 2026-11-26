@@ -1,0 +1,11 @@
+{
+  "slug": "blueprint-mechanism",
+  "cn": "精密工程蓝图与器物拆解风",
+  "en": "Precision Blueprint & Exploded Mechanism",
+  "category": "technical-diagram",
+  "needs_ai_art": false,
+  "default_fps": 30,
+  "default_size": "1920x1080",
+  "best_for": ["weaponry", "architecture", "engineering", "aviation", "industrial-design"],
+  "summary": "普鲁士深蓝晒图底纸配银白发丝技术线条、动态爆炸剖面拆解与严格正交尺寸标尺，精准解释精密器物、火炮与工程奇迹。"
+}

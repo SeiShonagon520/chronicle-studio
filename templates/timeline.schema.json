@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chronicle-studio.local/schemas/timeline.schema.json",
+  "title": "Chronicle Studio Single-Source Timeline",
+  "description": "Single source of truth driving deterministic render(t), audio event sync, and subtitle generation.",
+  "type": "object",
+  "required": ["meta", "sections", "shots", "subtitles"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["slug", "title", "fps", "size", "duration"],
+      "properties": {
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "title": { "type": "string", "minLength": 1 },
+        "style": { "type": "string" },
+        "fps": { "type": "integer", "enum": [24, 30, 60] },
+        "size": { "type": "string", "pattern": "^[0-9]+x[0-9]+$" },
+        "duration": { "type": "number", "exclusiveMinimum": 0 },
+        "bpm": { "type": "number", "minimum": 30, "maximum": 240 }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "t0", "t1", "mood"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "t0": { "type": "number", "minimum": 0 },
+          "t1": { "type": "number", "exclusiveMinimum": 0 },
+          "mood": { "type": "string", "enum": ["calm", "tense", "solemn", "triumphant", "climax"] }
+        }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "sectionId", "t0", "t1", "framing", "transitionOut"],
+        "properties": {
+          "id": { "type": "string" },
+          "sectionId": { "type": "string" },
+          "t0": { "type": "number", "minimum": 0 },
+          "t1": { "type": "number", "exclusiveMinimum": 0 },
+          "framing": { "type": "string", "enum": ["wide", "full", "medium", "close", "insert"] },
+          "asset": { "type": "string" },
+          "transitionOut": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["t", "type"],
+        "properties": {
+          "t": { "type": "number", "minimum": 0 },
+          "type": { "type": "string" },
+          "label": { "type": "string" }
+        }
+      }
+    },
+    "subtitles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["t0", "t1", "zh"],
+        "properties": {
+          "t0": { "type": "number", "minimum": 0 },
+          "t1": { "type": "number", "exclusiveMinimum": 0 },
+          "zh": { "type": "string", "minLength": 1 },
+          "en": { "type": "string" }
+        }
+      }
+    }
+  }
+}

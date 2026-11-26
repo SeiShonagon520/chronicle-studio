@@ -1,0 +1,11 @@
+{
+  "slug": "copperplate-chronicle",
+  "cn": "十九世纪铜版雕刻纪年风",
+  "en": "19th-Century Copperplate Engraving",
+  "category": "illustrated",
+  "needs_ai_art": true,
+  "default_fps": 24,
+  "default_size": "1920x1080",
+  "best_for": ["industrial-revolution", "age-of-sail", "empire-rise-fall", "architecture", "science-history"],
+  "summary": "米白旧布纸上的锐利铜版雕刀交叉排线插画，叠加矢量黄铜经纬圆规刻度与唯一朱红批注墨点，散发厚重庄严的博物典籍质感。"
+}

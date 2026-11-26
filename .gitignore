@@ -1,0 +1,10 @@
+films/*/
+!films/.gitkeep
+core/starter/out/
+**/__pycache__/
+**/*.pyc
+node_modules/
+.venv/
+*.tmp
+.DS_Store
+Thumbs.db

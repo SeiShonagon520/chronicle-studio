@@ -1,0 +1,11 @@
+{
+  "slug": "archival-lighttable",
+  "cn": "暗房档案灯箱纪录片风",
+  "en": "Archival Lightbox Documentary",
+  "category": "documentary",
+  "needs_ai_art": false,
+  "default_fps": 24,
+  "default_size": "1920x1080",
+  "best_for": ["espionage", "mystery", "telegrams", "archive-investigation", "science-breakthrough"],
+  "summary": "暗室灯箱暖背光台面，发黄电报与历史档案照在放大镜与猩红线索线牵引下丝滑移动、标注并揭示隐蔽真相。"
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "template-style",
+  "cn": "风格中文名",
+  "en": "English Style Name",
+  "category": "illustrated",
+  "needs_ai_art": true,
+  "default_fps": 24,
+  "default_size": "1920x1080",
+  "best_for": ["historical-narrative", "biography", "human-story"],
+  "summary": "一句话说明该风格的媒材质感与核心适用场景。"
+}

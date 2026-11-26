@@ -1,0 +1,11 @@
+{
+  "slug": "ink-wash-scroll",
+  "cn": "东方水墨长卷科普风",
+  "en": "East Asian Ink-Wash Handscroll",
+  "category": "illustrated",
+  "needs_ai_art": true,
+  "default_fps": 24,
+  "default_size": "1920x1080",
+  "best_for": ["chinese-history", "silk-road", "hydraulics", "ecology", "philosophy"],
+  "summary": "暖灰纤维宣纸长卷，由 AI 统一渲染水墨山水建筑底图与矿物青绿赭石淡彩，配合毛细湿墨晕染转场、书法题跋与极度克制的留白韵律。"
+}

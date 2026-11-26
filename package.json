@@ -1,0 +1,13 @@
+{
+  "name": "chronicle-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Six-phase gated narrative and popular-science video production framework with Visual PK style selection and a deterministic Chrome DevTools render pipeline.",
+  "scripts": {
+    "check-env": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-env.ps1",
+    "starter:still": "node core/render/still.mjs core/starter 0.0 1.2 2.4 3.8 --prefix st_ --out core/starter/out/stills",
+    "starter:readcheck": "node core/render/readcheck.mjs core/starter",
+    "starter:video": "node core/render/video.mjs core/starter --fps 24 --out core/starter/out/video.mp4"
+  }
+}

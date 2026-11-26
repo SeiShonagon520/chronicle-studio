@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "chronicle-starter",
+    "title": "Chronicle Studio 参考工程模板",
+    "style": "editorial-vox-atlas",
+    "fps": 24,
+    "size": "1920x1080",
+    "duration": 6.0,
+    "bpm": 80
+  },
+  "sections": [
+    {
+      "id": "sec_intro",
+      "title": "六步门禁序幕",
+      "t0": 0.0,
+      "t1": 6.0,
+      "mood": "calm"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "sectionId": "sec_intro",
+      "t0": 0.0,
+      "t1": 3.0,
+      "framing": "wide",
+      "asset": "vector_parchment",
+      "transitionOut": "Continuously push camera onto focal pin while status badge crossfades without overlap"
+    },
+    {
+      "id": "S02",
+      "sectionId": "sec_intro",
+      "t0": 3.0,
+      "t1": 6.0,
+      "framing": "medium",
+      "asset": "vector_parchment",
+      "transitionOut": "Gentle hold drift ready for next act"
+    }
+  ],
+  "events": [
+    { "t": 0.25, "type": "ui_arrive", "label": "Header badge appears" },
+    { "t": 2.70, "type": "state_morph", "label": "State badge swaps cleanly without double ghosting" }
+  ],
+  "subtitles": [
+    {
+      "t0": 0.2,
+      "t1": 2.9,
+      "zh": "六步门禁流程：先出样例，后写全片",
+      "en": "Six-phase gated workflow: preview real samples before full production"
+    },
+    {
+      "t0": 3.1,
+      "t1": 5.8,
+      "zh": "确定性时间函数：零重影、稳满帧、可自动质检",
+      "en": "Deterministic render(t): ghost-free morphs & automated QA checks"
+    }
+  ]
+}

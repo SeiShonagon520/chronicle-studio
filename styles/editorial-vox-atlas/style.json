@@ -1,0 +1,11 @@
+{
+  "slug": "editorial-vox-atlas",
+  "cn": "杂志级动态地图与信息图风",
+  "en": "Editorial Magazine Atlas & Motion Infographics",
+  "category": "editorial-data",
+  "needs_ai_art": false,
+  "default_fps": 30,
+  "default_size": "1920x1080",
+  "best_for": ["economics", "urban-history", "policy-explainer", "demographics", "comparison"],
+  "summary": "温暖新闻纸与权威杂志版式底纹，配合荧光标注扫高亮、手绘质感矢量地图、折线/散点图表无缝联动与 Apple 级精密表格弹簧交互。"
+}

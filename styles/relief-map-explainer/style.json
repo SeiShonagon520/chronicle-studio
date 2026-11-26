@@ -1,0 +1,11 @@
+{
+  "slug": "relief-map-explainer",
+  "cn": "3D 浮雕与流光战略地图风",
+  "en": "3D Relief & Luminous Strategy Atlas",
+  "category": "map-data",
+  "needs_ai_art": false,
+  "default_fps": 30,
+  "default_size": "1920x1080",
+  "best_for": ["campaigns", "maritime-chokepoints", "geography", "logistics", "climate"],
+  "summary": "低角度暖阳打出的夸大立体地貌阴影与按水深变色的海洋底图上，唯一自发光的流光航道、补给线与立体数据柱沿真实地形穿行起伏。"
+}

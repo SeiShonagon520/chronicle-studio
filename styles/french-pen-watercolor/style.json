@@ -1,0 +1,11 @@
+{
+  "slug": "french-pen-watercolor",
+  "cn": "法式钢笔水彩绘本风",
+  "en": "French Dip-Pen & Watercolor Storybook",
+  "category": "illustrated",
+  "needs_ai_art": true,
+  "default_fps": 24,
+  "default_size": "1920x1080",
+  "best_for": ["war-history", "human-tragedy", "modern-europe", "chronicle"],
+  "summary": "致敬法比欧漫与反战绘本美学的蘸水钢笔墨线与通透羊皮纸水彩，所有角色、建筑与机械画幅由 AI 同源精绘，杜绝积木与程序几何替代。"
+}
